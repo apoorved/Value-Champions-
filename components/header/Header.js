@@ -1,7 +1,6 @@
 import React from "react";
 import { AppBar, Container, Toolbar } from "@mui/material";
 import ResponsiveAppBar from "./AppBar";
-import Image from "next/image";
 
 export const Header = () => {
   return (

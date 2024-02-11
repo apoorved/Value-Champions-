@@ -1,7 +1,8 @@
 import { Introduction } from "@/components/Intro/Introduction";
-import { Card } from "@mui/material";
+import { Box, Card } from "@mui/material";
 import { Services } from "@/components/Services";
 import { Clients } from "@/components/Clients";
+import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -20,6 +21,10 @@ export default function Home() {
         <Services/>
       </Card>
       <Clients/>
+      <Box pt={2} px={1} mt={3} sx={{backgroundImage: `url('/waves-white.svg')`,
+        backgroundSize: "cover",}}>
+        <Footer />
+      </Box>
     </>
   );
 }

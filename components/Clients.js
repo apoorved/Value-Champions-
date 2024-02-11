@@ -7,7 +7,7 @@ export const Clients = () => {
     <Box
       variant="contained"
       component={"section"}
-      py={{ xs: 0, sm: 12 }}
+      py={{ xs: 12, sm: 12 }}
       display={{ xs: "block", md: "flex" }}
     >
       <Container>
@@ -24,7 +24,6 @@ export const Clients = () => {
                     variant="h3"
                     color={"dark"}
                     textGradient={true}
-                    mt={-0.625}
                   >
                     <Icon/>
                   </Typography>
