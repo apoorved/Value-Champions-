@@ -7,5 +7,4 @@ export const navConfig = [
     label: "Youtube",
     link: "https://www.youtube.com/@valuechampionsllp/featured",
   },
-  { label: "Linkedin", link: "" },
 ];
