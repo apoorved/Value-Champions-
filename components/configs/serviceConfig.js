@@ -18,7 +18,7 @@ export const serviceConfig = [
     },
     {
         heading: 'Startup India',
-        description: 'Helping this mission grow, with all startup funding solutions',
+        description: 'Helping this mission grow, with all startup funding and compliances solutions',
         Icon: TungstenTwoToneIcon,
     },
     {

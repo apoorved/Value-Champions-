@@ -22,13 +22,13 @@ export const Footer = () => {
           </Grid>
           <Grid item xs={12} md={4} sx={{ ml: "auto", mb: 1 }}>
             <Typography variant="body1" color="dark" opacity={0.8}>
-              Partner: Nihit Mehrotra
+             Contact us:
             </Typography>
             <Typography variant="body2" color="dark" opacity={0.8}>
             Email - valuechampionsllp@gmail.com
             </Typography>
             <Typography variant="body2" color="dark" opacity={0.8}>
-            Contact - 6393863951
+            Mobile No. - +916393863951
             </Typography>
           </Grid>
         </Grid>
