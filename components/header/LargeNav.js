@@ -33,6 +33,7 @@ export const LargeNav = ({ pages }) => {
             key={page.label}
             sx={{ my: 2, color: "#344767", display: "block" }}
             href={page.link}
+            target="_blank" rel="noopener noreferrer"
           >
             {page.label}
           </Button>

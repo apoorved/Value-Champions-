@@ -75,7 +75,7 @@ export const MobileNav = ({ pages }) => {
         >
           {pages.map((page) => (
             <MenuItem key={page.label} >
-              <Link href={page.link}>
+              <Link href={page.link} target="_blank" rel="noopener noreferrer">
                 <Typography textAlign="center">{page.label}</Typography>
               </Link>
             </MenuItem>
