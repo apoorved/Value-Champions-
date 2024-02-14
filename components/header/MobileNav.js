@@ -27,7 +27,6 @@ export const MobileNav = ({ pages }) => {
         variant="h6"
         noWrap
         fontSize={"medium"}
-        fontColor={"#090f1b"}
         sx={{
           mr: 2,
           display: { xs: "none", md: "flex" },
@@ -75,7 +74,7 @@ export const MobileNav = ({ pages }) => {
           }}
         >
           {pages.map((page) => (
-            <MenuItem key={page.label} TransitionComponent={Fade}>
+            <MenuItem key={page.label} >
               <Link href={page.link}>
                 <Typography textAlign="center">{page.label}</Typography>
               </Link>

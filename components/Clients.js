@@ -23,7 +23,6 @@ export const Clients = () => {
                     display="block"
                     variant="h3"
                     color={"dark"}
-                    textGradient={true}
                   >
                     <Icon/>
                   </Typography>

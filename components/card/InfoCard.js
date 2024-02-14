@@ -18,7 +18,6 @@ export const InfoCard = ({Icon, heading, description}) => {
         display="block"
         variant="h3"
         color={"dark"}
-        textGradient={true}
         mt={-0.625}
       >
         <Icon/>

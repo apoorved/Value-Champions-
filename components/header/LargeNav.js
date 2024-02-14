@@ -11,7 +11,6 @@ export const LargeNav = ({ pages }) => {
         variant="h6"
         noWrap
         fontSize={"inherit"}
-        fontColor={"#090f1b"}
         sx={{
           mr: 2,
           display: { xs: "flex", md: "none" },
