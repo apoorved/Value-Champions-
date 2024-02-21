@@ -10,16 +10,16 @@ export const LargeNav = ({ pages }) => {
       <Typography
         variant="h6"
         noWrap
-        fontSize={"inherit"}
+        fontSize={"3vw"}
         sx={{
           mr: 2,
-          display: { xs: "flex", md: "none" },
+          display: { xs: "flex", md: "none"},
           flexGrow: 1,
           fontWeight: "bold",
           paddingLeft: 10,
         }}
       >
-        Value Champions
+        Value Champions LLP
       </Typography>
       <Box
         sx={{

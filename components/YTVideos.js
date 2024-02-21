@@ -4,7 +4,7 @@ import { ytConfig } from "./configs/ytConfig";
 
 export const YTVideos = () => {
   return (
-    <Grid container spacing={1} sx={{ mb: 10, mt: 1, padding: 1 }}>
+    <Grid container spacing={1} sx={{ mb: 10, mt: 1, padding: 1 }} id="youtube"> 
       <Grid item xs={12} lg={3}>
         <Box position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
           <Typography variant="h4" fontWeight="bold" mb={1}

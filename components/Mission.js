@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 export const Mission = () => {
   return (
-    <Box component="section" py={{ xs: 0, sm: 12 }}>
+    <Box id="mission" component="section" py={{ xs: 0, sm: 12 }}>
       <Box
         variant="gradient"
         sx={{

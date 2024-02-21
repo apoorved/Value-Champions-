@@ -4,7 +4,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <Box component="footer">
+    <Box component="footer" id="footer">
       <Container>
         <Grid container spacing={1}  >
           <Grid item xs={12} md={4} sx={{ ml: "auto", mb: 1 }}>

@@ -26,14 +26,14 @@ export const MobileNav = ({ pages }) => {
       <Typography
         variant="h6"
         noWrap
-        fontSize={"medium"}
+        fontSize={"3vw"}
         sx={{
           mr: 2,
           display: { xs: "none", md: "flex" },
           fontWeight: "bold",
         }}
       >
-        Value Champions
+        Value Champions LLP
       </Typography>
       <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
         <IconButton

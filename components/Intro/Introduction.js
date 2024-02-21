@@ -5,6 +5,7 @@ export const Introduction = () => {
   return (
     <Box
       opacity={1}
+      id='intro'
       shadow="none"
       variant="contained"
       sx={{
@@ -47,6 +48,7 @@ export const Introduction = () => {
                 fontSize: "1.125rem",
                 lineHeight: 1.6,
                 color: "#A0AEC0",
+                textAlign: "center",
               }}
             >
               We are dedicated to providing taxation advisory (GST & Income Tax), ROC compliances, formation of LLP

@@ -5,10 +5,12 @@ import { Clients } from "@/components/Clients";
 import { Footer } from "@/components/Footer";
 import { Mission } from "@/components/Mission";
 import { YTVideos } from "@/components/YTVideos";
+import  GoTo  from "@/components/GoTo";
 
 export default function Home() {
   return (
     <>
+      <GoTo />
       <Introduction />
       <Card
         sx={{
