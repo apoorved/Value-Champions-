@@ -1,13 +1,11 @@
 "use client";
 
 import * as React from "react";
-import Box from "@mui/material/Box";
-import Backdrop from "@mui/material/Backdrop";
 import SpeedDial from "@mui/material/SpeedDial";
 import UnfoldMoreIcon from "@mui/icons-material/UnfoldMore";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import ViewAgendaIcon from '@mui/icons-material/ViewAgenda';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import Link from "next/link";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -20,7 +18,7 @@ const actions = [
     tooltipTitle: "Go to top",
   },
   {
-    icon: <ViewAgendaIcon />,
+    icon: <RocketLaunchIcon />,
     name: "Mission",
     href: "#mission",
     tooltipTitle: "Go to mission section",
